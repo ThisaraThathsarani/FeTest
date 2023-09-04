@@ -21,6 +21,7 @@ function App() {
     setIsEnabled(!isEnabled);
   };
 
+  //when user select pose display icon
   const handlePoseClick = (index) => {
     setSelectedPose(index);
   };
